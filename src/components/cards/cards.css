@@ -1,0 +1,28 @@
+.card {
+  border: 4px #ade0ff solid;
+  border-radius: 2px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  box-shadow: 4px 4px 10px pink;
+  transition: all 0.2s ease-in-out;
+}
+
+.card > .img-container {
+  height: 100%;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+}
+
+.card > .img-container > img {
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card:active {
+  transform: translate(1px, 1px);
+}
