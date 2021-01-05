@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://bcwill13.github.io/clicky-game",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "i": "^0.3.6",
     "node.js": "0.0.0",
     "react": "^16.10.1",
